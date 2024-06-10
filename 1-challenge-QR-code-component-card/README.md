@@ -53,4 +53,4 @@ The project helped me review concepts related to CSS custom properties and Flexb
 ## Author
 
 - Website - [Carlos Pizarro](https://github.com/IncorrigibleSpirit)
-- Frontend Mentor - [@@IncorrigibleSpirit](https://www.frontendmentor.io/profile/IncorrigibleSpirit)
+- Frontend Mentor - [@IncorrigibleSpirit](https://www.frontendmentor.io/profile/IncorrigibleSpirit)
