@@ -30,8 +30,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20rem;
-    height: 31.0625rem;
+    max-width: 20rem;
+    max-height: 31.0625rem;
     background-color: $White;
     border-radius: 5%;
     margin-bottom: 1rem;
@@ -42,6 +42,7 @@ body {
       align-items: center;
       max-width: 18rem;
       max-height: 18rem;
+      margin-top: 1.875rem;
     }
 
     .image-container img {
@@ -52,19 +53,19 @@ body {
     .text-container {
       display: flex;
       flex-direction: column;
-      gap: 16px;
-      padding: 30px 35px;
+      gap: 1rem;
+      padding: 1.875rem 2.1875rem;
       text-align: center;
 
-      h2 {
-        font-size: 20px;
+      .first-paragraph {
+        font-size: 1.25rem;
         line-height: 1.5rem;
         font-weight: 700;
         color: $secundaryColor;
       }
 
-      p {
-        font-size: 15px;
+      .second-paragraph {
+        font-size: 0.9375rem;
         font-weight: 400;
         color: $terciarycolor;
       }
@@ -75,7 +76,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 11px;
+    font-size: 0.7rem;
 
     .attribution a {
       color: hsl(228, 45%, 44%);
