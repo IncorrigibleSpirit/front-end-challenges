@@ -25,8 +25,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 20rem;
-  height: 31.0625rem;
+  max-width: 20rem;
+  max-height: 31.0625rem;
   background-color: hsl(0, 0%, 100%);
   border-radius: 5%;
   margin-bottom: 1rem;
@@ -37,6 +37,7 @@ body {
   align-items: center;
   max-width: 18rem;
   max-height: 18rem;
+  margin-top: 1.875rem;
 }
 .main-container .info-container .image-container img {
   max-width: 100%;
@@ -45,18 +46,18 @@ body {
 .main-container .info-container .text-container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding: 30px 35px;
+  gap: 1rem;
+  padding: 1.875rem 2.1875rem;
   text-align: center;
 }
-.main-container .info-container .text-container h2 {
-  font-size: 20px;
+.main-container .info-container .text-container .first-paragraph {
+  font-size: 1.25rem;
   line-height: 1.5rem;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
-.main-container .info-container .text-container p {
-  font-size: 15px;
+.main-container .info-container .text-container .second-paragraph {
+  font-size: 0.9375rem;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
 }
@@ -64,7 +65,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 11px;
+  font-size: 0.7rem;
 }
 .main-container .attribution .attribution a {
   color: hsl(228, 45%, 44%);
