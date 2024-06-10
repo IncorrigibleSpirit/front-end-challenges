@@ -57,14 +57,13 @@ body {
       padding: 1.875rem 2.1875rem;
       text-align: center;
 
-      .first-paragraph {
+      .title {
         font-size: 1.25rem;
         line-height: 1.5rem;
-        font-weight: 700;
         color: $secundaryColor;
       }
 
-      .second-paragraph {
+      .first-paragraph {
         font-size: 0.9375rem;
         font-weight: 400;
         color: $terciarycolor;
