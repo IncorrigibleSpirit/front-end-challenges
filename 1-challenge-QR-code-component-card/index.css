@@ -50,13 +50,12 @@ body {
   padding: 1.875rem 2.1875rem;
   text-align: center;
 }
-.main-container .info-container .text-container .first-paragraph {
+.main-container .info-container .text-container .title {
   font-size: 1.25rem;
   line-height: 1.5rem;
-  font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
-.main-container .info-container .text-container .second-paragraph {
+.main-container .info-container .text-container .first-paragraph {
   font-size: 0.9375rem;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
@@ -72,3 +71,4 @@ body {
 }
 
 /*# sourceMappingURL=index.css.map */
+
