@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link](https://your-solution-url.com)
+- Solution URL: [Link](https://github.com/IncorrigibleSpirit/front-end-challenges/blob/2-challenge-blog-preview-card/blog-preview-card-main/README.md)
 - Live Site URL: [Link](https://blog-preview-card-01.netlify.app/)
 
 ## My process
