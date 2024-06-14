@@ -62,4 +62,4 @@ During this project, I reviewed some concepts related to designing layouts and w
 ## Author
 
 - Website - [Carlos Pizarro](https://github.com/IncorrigibleSpirit)
-- Frontend Mentor - [@@IncorrigibleSpirit](https://www.frontendmentor.io/profile/IncorrigibleSpirit)
+- Frontend Mentor - [@IncorrigibleSpirit](https://www.frontendmentor.io/profile/IncorrigibleSpirit)
