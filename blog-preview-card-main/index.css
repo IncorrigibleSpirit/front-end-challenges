@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-size: clamp(0.875rem, 0.357vw + 0.8036rem, 1.125rem);
+  font-family: "Figtree", sans-serif;
+  min-width: 20rem;
+  max-width: 90rem;
+  background-color: hsl(47, 88%, 63%);
+}
+
+@font-face {
+  font-family: "figtree";
+  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf") format("ttf support variations"), url("/assets/fonts/Figtree-VariableFont_wght.ttf") format("ttf-variations");
+  font-weight: 300 900;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+  min-height: 100vh;
+}
+main .main-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 24rem;
+  max-height: 32.625rem;
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5%;
+  border: 0.125rem solid hsl(0, 0%, 7%);
+  box-shadow: 0.3125rem 0 0 0.3125rem hsl(0, 0%, 7%);
+  transition: all 0.4s;
+}
+main .main-container:hover {
+  transform: translateY(-0.5rem);
+}
+main .main-container .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 21rem;
+  margin: 1.5rem;
+}
+main .main-container .image-container img {
+  max-width: 100%;
+  border-radius: 5%;
+}
+main .main-container .text-container {
+  display: inline-block;
+  margin: 0 1.5rem;
+}
+main .main-container .text-container .tag {
+  font-variation-settings: "wght" 800;
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 5%;
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  margin-bottom: 0.5rem;
+  border-radius: 5%;
+}
+main .main-container .text-container .date {
+  font-variation-settings: "wght" 300;
+  color: hsl(0, 0%, 7%);
+}
+main .main-container .text-container .title {
+  font-size: 0.625rem;
+  letter-spacing: 0.0313rem;
+  font-variation-settings: "wght" 900;
+  display: inline-block;
+  transition: transform 0.1s ease;
+  margin: 0.6rem 0;
+}
+main .main-container .text-container .title:link {
+  color: hsl(0, 0%, 7%);
+  text-decoration: none;
+}
+main .main-container .text-container .title:visited {
+  color: hsl(0, 0%, 7%);
+}
+main .main-container .text-container .title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+main .main-container .text-container .title:active {
+  color: hsl(47, 88%, 63%);
+  transform: scale(0.95);
+}
+main .main-container .text-container .title:focus {
+  color: hsl(47, 88%, 63%);
+  text-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.534);
+}
+main .main-container .text-container .paragraph {
+  font-variation-settings: "wght" 400;
+  line-height: 130%;
+  color: hsl(0, 0%, 50%);
+}
+main .main-container .author-container {
+  display: flex;
+  max-width: 11.25rem;
+  max-height: 2rem;
+  margin: 1.5rem;
+}
+main .main-container .author-container .author-content {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+main .main-container .author-container .author-content .avatar {
+  max-width: 100%;
+  max-height: 100%;
+}
+main .main-container .author-container .author-content .author-name {
+  font-variation-settings: "wght" 800;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  color: hsl(0, 0%, 7%);
+}
+main .attribution {
+  font-size: 0.625rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+main .attribution .a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*# sourceMappingURL=index.css.map */

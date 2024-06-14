@@ -1,0 +1,158 @@
+@use "partials/styles";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-size: clamp(0.875rem, 0.357vw + 0.8036rem, 1.125rem);
+  font-family: "Figtree", sans-serif;
+  min-width: 20rem;
+  max-width: 90rem;
+  background-color: styles.$primaryColor;
+}
+
+@font-face {
+  font-family: "figtree";
+  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf")
+      format("ttf support variations"),
+    url("/assets/fonts/Figtree-VariableFont_wght.ttf") format("ttf-variations");
+  font-weight: 300 900;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+  min-height: 100vh;
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 24rem;
+    max-height: 32.625rem;
+    width: 100%;
+    background-color: styles.$tertiary-color;
+    border-radius: 5%;
+    border: 0.125rem solid styles.$secondary-color;
+    box-shadow: 0.3125rem 0 0 0.3125rem styles.$secondary-color;
+    transition: all 0.4s;
+
+    &:hover {
+      transform: translateY(-0.5rem);
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 21rem;
+      margin: 1.5rem;
+
+      img {
+        max-width: 100%;
+        border-radius: 5%;
+      }
+    }
+
+    .text-container {
+      display: inline-block;
+      margin: 0 1.5rem;
+
+      .tag {
+        font-variation-settings: "wght" 800;
+        display: inline-block;
+        padding: 0.25rem 0.75rem;
+        border-radius: 5%;
+        background-color: styles.$primaryColor;
+        color: styles.$secondary-color;
+        margin-bottom: 0.5rem;
+        border-radius: 5%;
+      }
+
+      .date {
+        font-variation-settings: "wght" 300;
+        color: styles.$secondary-color;
+      }
+
+      .title {
+        font-size: 0.625rem;
+        letter-spacing: 0.0313rem;
+        font-variation-settings: "wght" 900;
+        display: inline-block;
+        transition: transform 0.1s ease;
+        margin: 0.6rem 0;
+
+        &:link {
+          color: styles.$secondary-color;
+          text-decoration: none;
+        }
+
+        &:visited {
+          color: styles.$secondary-color;
+        }
+
+        &:hover {
+          color: styles.$primaryColor;
+          cursor: pointer;
+        }
+
+        &:active {
+          color: styles.$primaryColor;
+          transform: scale(0.95);
+        }
+
+        &:focus {
+          color: styles.$primaryColor;
+          text-shadow: 0.0625rem 0.0625rem 0.0625rem styles.$shadow;
+        }
+      }
+
+      .paragraph {
+        font-variation-settings: "wght" 400;
+        line-height: 130%;
+        color: styles.$quaternary-color;
+      }
+    }
+
+    .author-container {
+      display: flex;
+      max-width: 11.25rem;
+      max-height: 2rem;
+      margin: 1.5rem;
+
+      .author-content {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+
+        .avatar {
+          max-width: 100%;
+          max-height: 100%;
+        }
+
+        .author-name {
+          font-variation-settings: "wght" 800;
+          line-height: 100%;
+          display: flex;
+          align-items: center;
+          color: styles.$secondary-color;
+        }
+      }
+    }
+  }
+  .attribution {
+    font-size: 0.625rem;
+    text-align: center;
+    margin-top: 0.5rem;
+
+    .a {
+      color: styles.$quinary-color;
+    }
+  }
+}
