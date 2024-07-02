@@ -9,13 +9,13 @@
 body {
   width: 100%;
   font-family: "Inter", sans-serif;
-  min-width: 23.4375rem;
-  max-width: 90rem;
+  /* min-width: 23.4375rem; */
+  /* max-width: 90rem; */
   background-color: styles.$color_background_body;
 }
 
 :focus-visible {
-  outline: 2px dotted hsl(75, 94%, 57%);
+  outline: 2px dotted $color_primary;;
   outline-offset: 2px;
 }
 
