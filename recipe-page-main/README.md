@@ -35,8 +35,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Sass
 
 ### What I learned
-
-Please remember this: Overall, the project was manageable. However, creating the table at the bottom of the recipe required specific attention. It was important to review how to use "colspan" to merge cells and to insert separators using "<HR>"
+Overall, the project was manageable. However, creating the table at the bottom of the recipe required specific attention. It was important to review how to use "colspan" to merge cells and to insert separators using "<HR>"
 
 ```html
 <tr>
