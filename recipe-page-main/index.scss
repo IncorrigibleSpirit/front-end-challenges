@@ -80,6 +80,10 @@ body {
         line-height: 100%;
         font-variation-settings: "wght" 400;
         color: styles.$color_neutralDarkCharcoal;
+
+        @include mixins.tablet {
+          font-size: 2rem;
+        }
       }
 
       .recipe_description {
@@ -202,3 +206,4 @@ body {
     }
   }
 }
+
