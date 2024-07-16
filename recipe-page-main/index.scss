@@ -1,0 +1,204 @@
+@use "partials/mixins";
+@use "partials/styles";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("ttf support variations"),
+    url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("ttf-variations");
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("ttf support variations"),
+    url("/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("ttf-variations");
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Outfit", sans-serif;
+  min-width: 23.4375rem;
+  background-color: styles.$color_neutralEggshell;
+
+  .recipe_container {
+    display: flex;
+    flex-direction: column;
+    max-width: 46rem;
+    margin: 7.6875rem 22rem;
+    background-color: styles.$color_neutralWhite;
+    border-radius: 1.5rem;
+
+    @include mixins.mobile {
+      margin: 0;
+      border-radius: 0;
+    }
+
+    .recipe_picture {
+      display: flex;
+      flex-direction: column;
+      margin: 2.5rem;
+      min-width: 23.4375rem;
+      max-width: 41rem;
+      max-height: 18.75rem;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 1.5rem;
+
+        @include mixins.mobile {
+          border-radius: 0;
+        }
+      }
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      max-width: 41rem;
+      margin: 0 2.5rem;
+      gap: 1.5rem;
+
+      @include mixins.mobile {
+        padding: 0 2rem;
+      }
+
+      .recipe_title {
+        font-family: "Young Serif";
+        font-size: 2.5rem;
+        line-height: 100%;
+        font-variation-settings: "wght" 400;
+        color: styles.$color_neutralDarkCharcoal;
+      }
+
+      .recipe_description {
+        font-size: 1rem;
+        line-height: 150%;
+        font-variation-settings: "wght" 400;
+        color: styles.$color_neutralWengeBrown;
+      }
+    }
+
+    .recipe_content {
+      display: flex;
+      flex-direction: column;
+      max-width: 41rem;
+      margin: 2.5rem;
+      gap: 2rem;
+
+      @include mixins.mobile {
+        padding: 0 2rem;
+      }
+
+      .recipe_time {
+        padding: 1.75rem;
+        background-color: styles.$color_neutralRoseWhite;
+
+        .time_title {
+          font-size: 1.25rem;
+          line-height: 100%;
+          font-variation-settings: "wght" 600;
+          color: styles.$color_secondary;
+          margin-bottom: 0.5rem;
+        }
+
+        ul {
+          font-size: 1rem;
+          line-height: 150%;
+          font-variation-settings: "wght" 400;
+          padding-left: 1rem;
+          color: styles.$color_neutralWengeBrown;
+        }
+      }
+
+      .ingredients_title {
+        font-family: "Young Serif";
+        font-variation-settings: "wght" 400;
+        font-size: 1.75rem;
+        line-height: 100%;
+        color: styles.$color_secondary;
+        padding-bottom: 1.5rem;
+      }
+
+      .ingredients {
+        font-size: 1rem;
+        line-height: 150%;
+        padding-left: 1rem;
+        color: styles.$color_neutralWengeBrown;
+        margin-left: 1rem;
+      }
+
+      hr {
+        border: 0.0625rem solid styles.$color_neutralLightGrey;
+      }
+
+      .instructions_title {
+        @extend .ingredients_title;
+      }
+
+      .instructions_list ::marker {
+        color: styles.$color_secondary;
+        font-weight: bold;
+      }
+
+      .instructions {
+        @extend .ingredients;
+        padding-bottom: 0.5rem;
+      }
+
+      .nutrition_title {
+        @extend .ingredients_title;
+      }
+
+      .nutrition_description {
+        @extend .ingredients;
+        padding-left: 0;
+        padding-bottom: 1.5rem;
+        margin-left: 0rem;
+      }
+
+      .nutrition_table {
+        width: 100%;
+        padding-bottom: 0.75rem;
+
+        .nutrition-separator {
+          height: 0.0625rem;
+          background-color: styles.$color_neutralLightGrey;
+        }
+
+        .nutrition_item {
+          font-size: 1rem;
+          line-height: 150%;
+          font-variation-settings: "wght" 400;
+          color: styles.$color_neutralWengeBrown;
+        }
+
+        .nutrition_value {
+          @extend .nutrition_item;
+          color: styles.$color_secondary;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .attribution {
+      font-size: 0.6875rem;
+      text-align: center;
+
+      a {
+        color: hsl(228, 45%, 44%);
+      }
+    }
+  }
+}
