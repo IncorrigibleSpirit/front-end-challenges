@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github](https://github.com/IncorrigibleSpirit/front-end-challenges/tree/5-FAQ-accordion/faq-accordion-main)
-- Live Site URL: [Add live site URL here](https://faq-accordion-01.netlify.app/)
+- Solution URL: [FAQ - accordion - GitHub](https://github.com/IncorrigibleSpirit/front-end-challenges/tree/5-FAQ-accordion/faq-accordion-main)
+- Live Site URL: [FAQ - accordion - Netlify](https://faq-accordion-01.netlify.app/)
 
 ## My process
 
