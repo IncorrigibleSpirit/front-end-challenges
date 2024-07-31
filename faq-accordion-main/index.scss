@@ -32,14 +32,16 @@ body {
   min-width: 23.4375rem;
 
   .faq_box {
+    width: 100%;
     min-width: 23.4375rem;
     max-width: 37.5rem;
-    margin: 167.5px 26.25rem;
+    margin: 10.4688rem 26.25rem;
     padding: 2.5rem;
     background-color: styles.$color_neutralWhite;
     border-radius: 0.625rem;
 
     @include medias.mobile {
+      width: 0;
       min-width: 20rem;
       margin: 8.9063rem 1.3438rem;
       padding: 1.5rem;
@@ -162,3 +164,4 @@ body {
     }
   }
 }
+
