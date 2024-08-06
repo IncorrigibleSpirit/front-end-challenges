@@ -23,9 +23,6 @@ body {
   min-height: 100vh;
   margin: 1.75rem auto;
 
-  @include medias.mobile {
-    margin: 10.9375rem auto;
-  }
 
   .card {
     max-width: 21.4375rem;
