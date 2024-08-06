@@ -8,8 +8,8 @@
 }
 
 :focus-visible {
-  outline: 2px dotted styles.$color_aquamarine;
-  outline-offset: 2px;
+  outline: 0.125rem dotted styles.$color_aquamarine;
+  outline-offset: 0.125rem;
 }
 
 body {
@@ -18,37 +18,37 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "montserrat", sans-serif;
-  min-width: 375px;
+  min-width: 23.4375rem;
   background-color: styles.$secondaryColor;
   min-height: 100vh;
-  margin: 28px auto;
+  margin: 1.75rem auto;
 
   @include medias.mobile {
-    margin: 175px auto;
+    margin: 10.9375rem auto;
   }
 
   .card {
-    max-width: 343px;
+    max-width: 21.4375rem;
     background-color: styles.$color_white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     overflow: hidden;
 
     @include medias.mobile {
-      max-width: 600px;
+      max-width: 37.5rem;
       flex-direction: row;
     }
 
     .card_image {
-      max-width: 343px;
-      height: 240px;
+      max-width: 21.4375rem;
+      height: 15rem;
 
       @include medias.mobile {
-        max-width: 300px;
-        height: 454px;
+        max-width: 18.75rem;
+        height: 28.375rem;
       }
 
       img {
@@ -59,75 +59,75 @@ body {
 
     .card_content {
       display: flex;
-      max-width: 343px;
+      max-width: 21.4375rem;
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
-      padding: 24px;
+      padding: 1.5rem;
 
       @include medias.mobile {
-        max-width: 300px;
-        padding: 32px;
+        max-width: 18.75rem;
+        padding: 2rem;
       }
 
       .card_subtitle {
-        font-size: 12px;
-        letter-spacing: 5px;
-        margin-bottom: 12px;
+        font-size: 0.75rem;
+        letter-spacing: 0.3125rem;
+        margin-bottom: 0.75rem;
       }
 
       .card_title {
         font-family: "fraunces", sans-serif;
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 700;
-        margin-bottom: 16px;
+        margin-bottom: 1rem;
       }
 
       .card_description {
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 1.5;
         color: styles.$color_darkGrayish;
-        margin-bottom: 18px;
+        margin-bottom: 1.125rem;
       }
 
       .card_price {
         display: flex;
         width: 100%;
-        margin-bottom: 18px;
+        margin-bottom: 1.125rem;
 
         .price_discount {
           font-family: "fraunces", sans-serif;
-          font-size: 32px;
+          font-size: 2rem;
           font-weight: 700;
           color: styles.$primaryColor;
-          margin-bottom: 16px;
+          margin-bottom: 1rem;
         }
 
         .price_original {
-          font-size: 13px;
+          font-size: 0.8125rem;
           color: styles.$primaryColor;
           color: styles.$color_darkGrayish;
           align-items: center;
           text-decoration: line-through;
           align-self: center;
-          margin-left: 19px;
-          margin-bottom: 16px;
+          margin-left: 1.1875rem;
+          margin-bottom: 1rem;
         }
       }
       .card_button {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 295px;
-        height: 48px;
+        width: 18.4375rem;
+        height: 3rem;
         color: styles.$color_white;
         background-color: styles.$primaryColor;
-        border-radius: 5px;
+        border-radius: 0.3125rem;
         transition: transform 0.1s ease;
         box-shadow: 0 1rem 1rem rgb(0, 0, 0, 0.2);
 
         @include medias.mobile {
-          width: 236px;
+          width: 14.75rem;
         }
 
         &:hover {
@@ -147,13 +147,13 @@ body {
             align-items: center;
 
             img {
-              margin-right: 5px;
+              margin-right: 0.3125rem;
             }
           }
 
           a {
             text-decoration: none;
-            font-size: 14px;
+            font-size: 0.875rem;
             font-weight: bold;
             line-height: 150%;
             color: styles.$color_white;
@@ -166,9 +166,9 @@ body {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
