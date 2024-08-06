@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/IncorrigibleSpirit/front-end-challenges/tree/6-product-preview-card-component)
+- Live Site URL: [Netlify](https://product-preview-card-component-02.netlify.app/)
 
 ## My process
 
