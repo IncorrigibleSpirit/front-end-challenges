@@ -14,38 +14,40 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <main class="card">
-      <picture class="card_image">
-        <source srcset="/assets/images/image-product-mobile.jpg" media="(max-width: 600px)" />
-        <source srcset="/assets/images/image-product-desktop.jpg" media="(min-width: 601px)" />
-        <img src="/assets/images/image-product-mobile.jpg" alt="Perfume Gabrielle" />
-      </picture>
-      <section class="card_content">
-        <p class="card_subtitle">PERFUME</p>
-        <h1 class="card_title">Gabrielle Essence Eau De Parfum</h1>
-        <p class="card_description">
-          A floral, solar and voluptuous interpretation composed by Olivier Polge,Perfumer-Creator for the House of
-          CHANEL.
-        </p>
-        <div class="card_price">
-          <p class="price_discount">$149.99</p>
-          <p class="price_original">$169.99</p>
-        </div>
-        <div class="card_button">
-          <ul>
-            <li>
-              <img src="assets/images/icon-cart.svg" alt="icono cart" width="15" height="16" />
-              <a href="javascript:void(0)" class="button_text">Add to Cart</a>
-            </li>
-          </ul>
-        </div>
-      </section>
+    <main>
+      <div class="card">
+        <picture class="card_image">
+          <source srcset="/assets/images/image-product-mobile.jpg" media="(max-width: 600px)" />
+          <source srcset="/assets/images/image-product-desktop.jpg" media="(min-width: 601px)" />
+          <img src="/assets/images/image-product-mobile.jpg" alt="Perfume Gabrielle" />
+        </picture>
+        <section class="card_content">
+          <p class="card_subtitle">PERFUME</p>
+          <h1 class="card_title">Gabrielle Essence Eau De Parfum</h1>
+          <p class="card_description">
+            A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of
+            CHANEL.
+          </p>
+          <div class="card_price">
+            <p class="price_discount">$149.99</p>
+            <p class="price_original">$169.99</p>
+          </div>
+          <div class="card_button">
+            <ul>
+              <li>
+                <img src="assets/images/icon-cart.svg" alt="icono cart" width="15" height="16" />
+                <a href="javascript:void(0)" class="button_text">Add to Cart</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </main>
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="https://github.com/IncorrigibleSpirit">Carlos Pizarro</a>.
-    </div>
+    </footer>
   </body>
 </html>
