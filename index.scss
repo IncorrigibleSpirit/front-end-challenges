@@ -23,6 +23,9 @@ body {
   min-height: 100vh;
   margin: 1.75rem auto;
 
+  @include medias.mobile {
+    margin: 0 auto;
+  }
 
   .card {
     max-width: 21.4375rem;
@@ -78,6 +81,7 @@ body {
         font-size: 2rem;
         font-weight: 700;
         margin-bottom: 1rem;
+        line-height: 1;
       }
 
       .card_description {
@@ -121,7 +125,7 @@ body {
         background-color: styles.$primaryColor;
         border-radius: 0.3125rem;
         transition: transform 0.1s ease;
-        box-shadow: 0 1rem 1rem rgb(0, 0, 0, 0.2);
+        box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.2);
 
         @include medias.mobile {
           width: 14.75rem;
