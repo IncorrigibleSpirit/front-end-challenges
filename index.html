@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Image Carousel</title>
+  </head>
+  <body>
+    <main>
+      <!-- CAROUSEL -->
+      <section aria-label="carousel" class="carousel">
+        <!-- SLIDES (picture and text)  -->
+        <div class="carousel-slides">
+          <!-- slide 1 -->
+          <div class="carousel-item" role="listitem">
+            <img src="./fotos/image1.jpg" alt="Slide 1 description" />
+            <blockquote class="testimonial">
+              <p class="testimonial-text">
+                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure fugit error eum at."
+              </p>
+              <p class="testimonial-author">Maria de Almeida</p>
+              <p class="testimonial-job">Senior Product Manager at EDP Commercial</p>
+            </blockquote>
+          </div>
+
+          <!-- slide 2 -->
+          <div class="carousel-item" role="listitem">
+            <img src="./fotos/image2.jpg" alt="Slide 2 description" />
+            <blockquote class="testimonial">
+              <p class="testimonial-text">
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, suscipit."
+              </p>
+              <p class="testimonial-author">John Doe</p>
+              <p class="testimonial-job">Software Engineer at XYZ Tech</p>
+            </blockquote>
+          </div>
+
+          <!-- slide 3 -->
+          <div class="carousel-item" role="listitem">
+            <img src="./fotos/image3.jpg" alt="Slide 3 description" />
+            <blockquote class="testimonial">
+              <p class="testimonial-text">
+                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque."
+              </p>
+              <p class="testimonial-author">Jane Smith</p>
+              <p class="testimonial-job">UX Designer at Creative Co.</p>
+            </blockquote>
+          </div>
+
+          <!-- slide 4 -->
+          <div class="carousel-item" role="listitem">
+            <img src="./fotos/image4.jpg" alt="Slide 4 description" />
+            <blockquote class="testimonial">
+              <p class="testimonial-text">
+                "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis."
+              </p>
+              <p class="testimonial-author">Carlos Rivera</p>
+              <p class="testimonial-job">Project Manager at ABC Corp</p>
+            </blockquote>
+          </div>
+
+          <!-- slide 5 -->
+          <div class="carousel-item" role="listitem">
+            <img src="./fotos/image5.jpg" alt="Slide 5 description" />
+            <blockquote class="testimonial">
+              <p class="testimonial-text">
+                "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore."
+              </p>
+              <p class="testimonial-author">Emily Clark</p>
+              <p class="testimonial-job">Marketing Specialist at DEF Agency</p>
+            </blockquote>
+          </div>
+        </div>
+
+        <!-- NAVEGATION -->
+        <button class="carousel-button prev" id="prevBtn" aria-label="Previous Slide">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="btn-icon"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+          </svg>
+        </button>
+
+        <button class="carousel-button next" id="nextBtn" aria-label="Next Slide">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="btn-icon"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+          </svg>
+        </button>
+
+        <!-- INDICATORS -->
+        <nav class="carousel-indicators" aria-label="Slide indicators">
+          <button class="carousel-dot dot--fill" aria-label="Slide 1"></button>
+          <button class="carousel-dot" aria-label="Slide 2"></button>
+          <button class="carousel-dot" aria-label="Slide 3"></button>
+          <button class="carousel-dot" aria-label="Slide 4"></button>
+          <button class="carousel-dot" aria-label="Slide 5"></button>
+        </nav>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
