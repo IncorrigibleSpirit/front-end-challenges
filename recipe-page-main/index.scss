@@ -35,7 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 46rem;
-    margin: 7.6875rem 22rem;
+    margin: 7.6875rem auto;
     background-color: styles.$color_neutralWhite;
     border-radius: 1.5rem;
 
@@ -48,8 +48,7 @@ body {
       display: flex;
       flex-direction: column;
       margin: 2.5rem;
-      min-width: 23.4375rem;
-      max-width: 41rem;
+      min-width: 320px;
       max-height: 18.75rem;
 
       img {
