@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](hhttps://github.com/IncorrigibleSpirit/front-end-challenges/tree/8-four-card-feature-section/four-card-feature-section-master)
+- Solution URL: [GitHub](https://github.com/IncorrigibleSpirit/front-end-challenges/tree/8-four-card-feature-section/four-card-feature-section-master)
 - Live Site URL: [Four card feature section](https://four-card-feature-01.netlify.app/)
 
 ## My process
