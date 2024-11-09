@@ -12,9 +12,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -30,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](hhttps://github.com/IncorrigibleSpirit/front-end-challenges/tree/8-four-card-feature-section/four-card-feature-section-master)
+- Live Site URL: [Four card feature section](https://four-card-feature-01.netlify.app/)
 
 ## My process
 
