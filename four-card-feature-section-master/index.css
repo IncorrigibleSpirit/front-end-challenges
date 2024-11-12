@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
   font-family: Poppins, sans-serif;
   font-size: 16px;
-  background-color: #f2f2f2;
+  background-color: rgb(246, 244, 244);
 }
 
 :focus-visible {
@@ -40,22 +40,25 @@ body {
   margin-bottom: 16px;
   letter-spacing: 0.25px;
   font-weight: 600;
+  color: hsl(234, 12%, 34%);
 }
 .main_container header .main_title .main_title_light {
   font-size: clamp(1.5rem, 1.2857142857rem + 1.0714285714vw, 2.25rem);
   font-weight: 300;
+  color: hsl(234, 12%, 34%);
 }
 .main_container header .main_subtitle {
   text-align: center;
   font-size: clamp(0.94rem, 0.8871428571rem + 0.2642857143vw, 1.125rem);
   letter-spacing: 0.25px;
+  color: #a7a8ac;
 }
 .main_container .card_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   place-content: center;
-  gap: 1rem;
+  gap: 2.2rem;
 }
 @media (max-width: 1080px) {
   .main_container .card_container {
@@ -85,14 +88,14 @@ body {
 .main_container .card_container .card .card_title {
   font-size: 20px;
   font-weight: 600;
-  color: #4d4f62;
+  color: #5a5c6a;
 }
 .main_container .card_container .card .card_description {
   font-size: 13;
   font-weight: 400;
-  line-height: 2.3;
+  line-height: 1.8;
   letter-spacing: 0.09px;
-  color: #a3a5ae;
+  color: #a7a8ac;
 }
 @media (max-width: 400px) {
   .main_container .card_container .card .card_description {
@@ -142,7 +145,7 @@ body {
 }
 .main_container .attribution {
   font-size: 12px;
-  color: #4d4f62;
+  color: #5a5c6a;
   text-align: center;
   margin-top: 2rem;
 }
@@ -157,3 +160,4 @@ body {
 }
 
 /*# sourceMappingURL=index.css.map */
+
